@@ -136,7 +136,7 @@ toc_nowrap: false
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
-search_box: true
+search_box: false
 
 swift_search:
   enable: true
