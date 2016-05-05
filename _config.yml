@@ -9,6 +9,7 @@ menu:
   所有文章: /archives/
   #随笔: /tags/随笔
   标签云: /tags/
+  博客更新: /2016/04/24/blog-updates/
   关于我: /about/
 
 # Link to your avatar | 填写头像地址
@@ -38,9 +39,9 @@ since: 2016
 ## https://github.com/hexojs/hexo-generator-feed
 
 subnav:
-  Email: "mailto:123@123.com"
+  Email: "mailto:itzhoulin@itzhoulin.com"
   #新浪微博: "sina weibo"
-  GitHub: "#"
+  GitHub: "https://github.com/hnuzhoulin"
   #V2EX: "#"
   RSS: "/atom.xml"
   #知乎: "zhihu"
@@ -77,8 +78,8 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
-  #on: true
-  domain: 
+  on: true
+  domain: itzhoulin
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
@@ -137,6 +138,10 @@ toc_nowrap: false
 # Search Box in left column
 search_box: false
 
+swift_search:
+  enable: true
+  key: hAqNxuC2rnLW_yJiyLEK
+
 # 是否开启主页及加载头像时的动画效果
 # Animation in Homepage and Loading avatar
 animate: true
@@ -159,7 +164,7 @@ friends:
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+aboutme: IT爱好者，慢慢学习
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -186,20 +191,23 @@ share:
   baidu: true
   addthis: false
   addthis_pubid: "ra-56ff76c972fc0cf9"
+  #addthis: true
+  #addthis_pubid: "ra-727739316f3ee28"
   ## Go to www.addthis.com/dashboard to get your pubid (in src of Code)
   ## and customize AddThis share buttons
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-baidu_site: 
+#baidu_site: <meta name="baidu-site-verification" content="3MKHxckjCk" />
 google_site: 
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
-google_analytics: 
+google_analytics: UA-53900846-1
+
 
 # 百度统计 http://sitecenter.baidu.com/sc-web/
 # 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容
-baidu_tongji: 
+baidu_tongji: bfda7d8af83db2f5572810a41e5bd3f1
 
 # 不蒜子网站计数设置
 # http://ibruce.info/2015/04/04/busuanzi/

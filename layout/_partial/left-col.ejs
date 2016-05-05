@@ -11,8 +11,10 @@
         <% if (theme.subtitle){ %>
         <p class="header-subtitle"><%=theme.subtitle%></p>
         <%}%>
-        <% if (theme.search_box){ %>
-        <form><input type="text" class="search" placeholder=" Search..."></form>
+        <% if (theme.swift_search&&theme.swift_search.enable){ %>
+            <form class="search" action="<%- config.root %>search/index.html" method="get" accept-charset="utf-8">
+            <input type="text" id="search" class="st-default-search-input" maxlength="20" placeholder="Search..." />
+            </form>
         <%}%>        
 
 
