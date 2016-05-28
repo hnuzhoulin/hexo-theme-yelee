@@ -202,11 +202,11 @@ share:
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-#baidu_site: <meta name="baidu-site-verification" content="3MKHxckjCk" />
-google_site: 
+baidu_site: ea2UNANOcv
+google_site: MTu_FerxEQ0cLylhpkBblyhj8NgjcR9kkDdpp4tVvq4
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
-google_analytics: UA-53900846-1
+google_analytics: UA-77418203-1
 
 
 # 百度统计 http://sitecenter.baidu.com/sc-web/
