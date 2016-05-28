@@ -47,6 +47,7 @@ git pull
 | 5 | 文章导航切换按钮         | Post navigation button          |
 | 6 | 网站计数                 | Site counter                    |
 | 7 | 多语言支持                 | i18n, multi-language          |
+| 8 | 本地站内搜索                 | Local Site Search           |
 
 ![feature](http://moxfive.github.io/resources/yelee-features.jpg)
 
@@ -145,6 +146,12 @@ background_image: 5
 - "5": 设置`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片为背景
 
 - "0": remove background image and use white-gray theme | 取消网页背景图，使用淳朴的灰白主题 
+
+> [Saving JPEGs for the Web: Setting Photoshop Up for Progressive JPEGs](http://peteschuster.com/2013/01/saving-jpegs-for-the-web-setting-photoshop-up-for-progressive-jpegs/)
+
+> Optimize images with PhotoShop (JPEG, Quality 0, Progressive)
+
+> [关于 Yelee 主题背景图的压缩与优化](http://moxfive.xyz/2016/05/17/image-compression/)
 
 #### 4. Highlight Style | 文本/代码高亮样式:
 Set inline_code to style highlight text & Chose a highlight theme for code block.
